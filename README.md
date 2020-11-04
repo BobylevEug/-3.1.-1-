@@ -53,5 +53,11 @@ Vagrant reload
 
 #11.
 
+- sudo cp /bin/bash /tmp/new_path_directory/bash копирование Bash
+- export PATH=/tmp/new_path_directory:/usr/local/bin/bash:/bin/bash:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin задание путей поиска в переменной PATH
+- type -a bash вывод нахождения bash в разных директориях
+
 #12.
 
+- at выполняет задачи в поставленное время
+- batch  выполняет задачи во время низкой загруженности системы 
